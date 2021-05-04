@@ -8,3 +8,14 @@ chrome.action.onClicked.addListener((tab) => {
     function: customTabPage
   });
 });
+
+chrome.commands.onCommand.addListener(function(command) {
+  chrome.tabs.update({}, function(tab) {
+    if (command == 'toggle-tab-size') {
+      chrome.scripting.executeScript({
+        target: { tabId: tab.id },
+        function: customTabPage
+      });
+    }
+  });
+});

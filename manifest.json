@@ -8,6 +8,17 @@
     "activeTab",
     "scripting"
   ],
+  "commands": {
+    "toggle-tab-size": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "windows": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S",
+        "linux": "Ctrl+Shift+S"
+      },
+      "description": "탭 사이즈를 4로 변경합니다."
+    }
+  },
   "background": {
     "service_worker": "background.js"
   }
