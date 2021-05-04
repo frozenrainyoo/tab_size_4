@@ -1,0 +1,14 @@
+{
+  "name": "tab-size: 4",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "This is Custom Tab Size. tab size to 4 instead of 8",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
