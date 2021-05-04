@@ -17,6 +17,15 @@
         "linux": "Ctrl+Shift+S"
       },
       "description": "탭 사이즈를 4로 변경합니다."
+    },
+    "toggle-recover-tab-size": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "windows": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E",
+        "linux": "Ctrl+Shift+E"
+      },
+      "description": "탭 사이즈를 8로 변경합니다."
     }
   },
   "background": {
